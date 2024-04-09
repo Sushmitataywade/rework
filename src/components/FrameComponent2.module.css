@@ -1,0 +1,168 @@
+.suitableForCompanies {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.interviewReadyCandidates {
+  flex: 1;
+  position: relative;
+}
+.iconsParent {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.unlimitedJobPostings {
+  flex: 1;
+  position: relative;
+}
+.fontSelector {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.receivePreVettedProfiles {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 170px;
+}
+.iconsGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.dedicatedAccountManager {
+  flex: 1;
+  position: relative;
+}
+.iconsContainer {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.assistanceWithInterview {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 159px;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.icons5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.customReports {
+  flex: 1;
+  position: relative;
+}
+.iconsParent1 {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frameParent,
+.suitableForCompaniesWith5Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+.suitableForCompaniesWith5Parent {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lgi);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--primary-100);
+  font-family: var(--font-garnett-medium);
+}
+@media screen and (max-width: 450px) {
+  .frameDiv,
+  .iconsGroup {
+    flex-wrap: wrap;
+  }
+}
